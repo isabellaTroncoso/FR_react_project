@@ -1,20 +1,35 @@
-import logoDark from "./logo-dark.svg";
-import logoLight from "./logo-light.svg";
 import { Link } from "react-router-dom";
+import CountButton from "~/components/CountButton";
+import "~/components/CountButton.css";
+import "./welcome.css";
+
 
 
 
 
 export function Welcome() {
   return (
-    
     <>
 
-    <div>
+    <div className="centered-content">
+   <h1>Welcome to my page</h1>
+
+    <div className="links">
     <Link to="/start">Start page</Link>
     <Link to="/about">About page</Link>
+    </div>
+
+    
+    <CountButton />
+    
 
     </div>
+
+
+
+
+
+
     </>
 
   );

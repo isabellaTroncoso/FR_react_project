@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Ljus bakgrundsfärg */
+    color: #333; /* Mörk textfärg för bra kontrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: #2c3e50; /* Djupblå för rubriker */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Länkstil */
+  a {
+    text-decoration: none;
+    color: #3498db; /* Blå färg för länkar */
+    font-size: 1.2rem;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rundade hörn */
+    transition: background-color 0.3s ease; /* Smidig övergång */
+  }
+  
+  a:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Container för knappar/länkar */
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Mellanrum mellan länkar */
+    margin-bottom: 30px;
+  }
+  
+  /* För att centrera innehåll i knappar eller andra komponenter */
+  .centered-content {
+    text-align: center;
+  }

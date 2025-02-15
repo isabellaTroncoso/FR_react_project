@@ -1,0 +1,22 @@
+.btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #3498db; /* Blå bakgrund */
+    color: #fff; /* Vit text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Mörkare blå vid hover */
+    }
+
+.btn, a {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     }
+      
+      
+      
+   
