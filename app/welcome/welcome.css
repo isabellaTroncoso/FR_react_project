@@ -48,3 +48,27 @@
   .centered-content {
     text-align: center;
   }
+
+  /* Stil för div som innehåller funktionerna */
+.functions-content {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px; /* Rundade hörn */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga */
+  max-width: 400px; /* Begränsa bredden för att hålla innehållet kompakt */
+  margin-top: 30px;
+}
+
+/* Stil för texten i funktionerna */
+.functions-content h3 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.functions-content p {
+  color: #555; /* Grå text för stycken */
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}

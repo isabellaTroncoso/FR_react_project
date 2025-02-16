@@ -2,12 +2,32 @@ import { Link } from "react-router-dom";
 import CountButton from "~/components/CountButton";
 import "~/components/CountButton.css";
 import "./welcome.css";
+import { addNumbers, celsiusToFahrenheit, isAdult } from "~/types/utils";
 
 
+const MyTwoFunctions: React.FC = () => {
+  const sum = addNumbers(10, 5);
 
+  const age = 20;
+  const isUserAdult = isAdult(age);
+
+  const celsiusInput = 25;
+  const fahrenheit = celsiusToFahrenheit(celsiusInput);
+
+  return (
+    <div className="functions-content">
+      <h3>Mina 3 funktioner</h3>
+      <p><strong>Addition:</strong> Summan av 10 + 5 = {sum}</p>
+      <p><strong>Boolean:</strong> Ålder: {age}, {isUserAdult ? "Du är myndig" : "Du är inte myndig"}</p>
+      <p><strong>Typad returvärde:</strong> Temperatur {celsiusInput}°C är {fahrenheit}°F</p>
+    </div>
+  );
+};
 
 
 export function Welcome() {
+
+
   return (
     <>
 
@@ -22,17 +42,13 @@ export function Welcome() {
     
     <CountButton />
     
+    <MyTwoFunctions />
 
     </div>
-
-
-
-
-
-
     </>
 
   );
+
 }
 
 /*
