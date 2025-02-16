@@ -14,11 +14,8 @@ return (
     <button onClick={updateState} className="btn">Click me</button>
     </div>
 
-   
-)
+   );
 
-
-
-}
+};
 
 export default CountButton;

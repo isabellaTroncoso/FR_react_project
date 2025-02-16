@@ -1,4 +1,5 @@
 import { addNumbers, celsiusToFahrenheit, isAdult } from "~/types/utils";
+
 /* My three Functions*/
 export const MyThreeFunctions: React.FC = () => {
   const sum = addNumbers(10, 5);

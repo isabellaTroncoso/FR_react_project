@@ -10,7 +10,6 @@ import "~/components/CustomButton.css"
 
 export function Welcome() {
 
-
   return (
     <>
 
@@ -22,7 +21,6 @@ export function Welcome() {
     <Link to="/about">About page</Link>
     </div>
 
-    
     <CountButton />
     
     <div className="main-content">
@@ -31,8 +29,9 @@ export function Welcome() {
     </div>
 
     </div>
+    
     </>
 
   );
 
-}
+};

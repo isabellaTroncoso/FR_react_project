@@ -11,7 +11,7 @@ return (
     <button onClick={onClick} className="custom-button">
         {buttonText}
     </button>
-);
+  );
 };
 
 export default CustomButton;

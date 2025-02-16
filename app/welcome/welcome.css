@@ -43,6 +43,11 @@
     gap: 20px; /* Mellanrum mellan länkar */
     margin-bottom: 30px;
   }
+
+  .backLink {
+    display: flex;
+  }
+
   
   /* För att centrera innehåll i knappar eller andra komponenter */
   .centered-content {

@@ -4,6 +4,10 @@ export const addNumbers = (numberOne: number, numberTwo: number): number => {
 return numberOne + numberTwo;
 };
 
+export const subNumbers = (numberOne: number, numberTwo: number): number => {
+    return numberOne - numberTwo;
+}
+
 export const isAdult = (age: number): boolean => {
     return age >= 18;
 };
