@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import CustomButton from "~/components/CustomButton";
 import type { User } from "~/types/User";
 
@@ -26,7 +27,7 @@ export function About (){
             <p>{userInfo}</p>
 
             <div className="backLink">
-            <a href="/">Return</a>
+            <Link to="/">Return</Link>
             </div>
         
         </div>

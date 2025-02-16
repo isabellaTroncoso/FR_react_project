@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { subNumbers, isAdult, celsiusToFahrenheit } from "~/types/utils";
 
 export function Start (){
@@ -17,7 +18,7 @@ const sum = subNumbers(123, 54);
       <p><strong>Typad returvärde:</strong> Temperatur {celsiusInput}°C är {fahrenheit}°F</p>
        
        <div className="backLink">
-        <a href="/">Return</a>
+        <Link to="/">Return</Link>
        </div>
 
     </div>
