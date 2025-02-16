@@ -1,4 +1,4 @@
-/* Two functions with parameter and argument (typed) */
+/* Three functions with parameter and argument (typed) */
 
 export const addNumbers = (numberOne: number, numberTwo: number): number => {
 return numberOne + numberTwo;

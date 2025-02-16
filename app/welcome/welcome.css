@@ -6,8 +6,8 @@
   
   body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f4f8; /* Ljus bakgrundsfärg */
-    color: #333; /* Mörk textfärg för bra kontrast */
+    background-color: #f0f4f8; 
+    color: #333; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
   }
   
   h1 {
-    color: #2c3e50; /* Djupblå för rubriker */
+    color: #2c3e50; 
     font-size: 2rem;
     margin-bottom: 20px;
   }
@@ -23,7 +23,7 @@
   /* Länkstil */
   a {
     text-decoration: none;
-    color: #3498db; /* Blå färg för länkar */
+    color: #3498db; 
     font-size: 1.2rem;
     margin: 0 15px;
     padding: 10px 15px;
@@ -54,9 +54,9 @@
   background-color: #ffffff;
   padding: 20px;
   margin-top: 20px;
-  border-radius: 10px; /* Rundade hörn */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga */
-  max-width: 400px; /* Begränsa bredden för att hålla innehållet kompakt */
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 400px; 
   margin-top: 30px;
 }
 
@@ -68,7 +68,42 @@
 }
 
 .functions-content p {
-  color: #555; /* Grå text för stycken */
+  color: #555; 
   font-size: 1.2rem;
   margin-bottom: 10px;
+}
+
+
+.interface-content {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 400px; 
+  margin-top: 30px;
+}
+
+
+.interface-content h3 {
+  color: #2c3e50; 
+  font-size: 2rem;
+  margin-bottom: 20px; /* Lite utrymme under rubriken */
+}
+
+.interface-content p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* Container för både functions-content och interface-content */
+.main-content {
+  display: flex;
+  gap: 20px; /* Mellanrum mellan de två divarna */
+  justify-content: space-between; /* För att ge dem jämnt utrymme mellan */
+  width: 100%; 
+  max-width: 1200px; /* Maximera bredden på större skärmar */
+  flex-wrap: wrap; /* Gör så att divarna går till nästa rad på mindre skärmar */
 }
