@@ -7,7 +7,7 @@ import CustomButton from "./CustomButton";
 const MyInterface: React.FC = () => {
   const user: User = {
     username: "Bellz99",
-    password: "what123",
+    password: "*****",
     age: 25
   };
 

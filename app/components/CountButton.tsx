@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function stateExample () {
+export function CountButton () {
 const [count, setCount] = useState(0)
 
 const updateState = () => {
@@ -21,4 +21,4 @@ return (
 
 }
 
-export default stateExample;
+export default CountButton;
