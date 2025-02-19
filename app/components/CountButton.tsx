@@ -1,4 +1,5 @@
 import { useState } from "react";
+import countStyles from "./CountButton.module.css";
 
 export function CountButton () {
 const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ return (
     <div>
     <h2>Count: {count}</h2>
 
-    <button onClick={updateState} className="btn">Click me</button>
+    <button onClick={updateState} className={countStyles.btn}>Click me</button>
     </div>
 
    );

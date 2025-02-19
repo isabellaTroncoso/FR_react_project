@@ -1,40 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f4f8; 
-    color: #333; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  h1 {
-    color: #2c3e50; 
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  /* Länkstil */
-  a {
-    text-decoration: none;
-    color: #3498db; 
-    font-size: 1.2rem;
-    margin: 0 15px;
-    padding: 10px 15px;
-    border-radius: 5px; /* Rundade hörn */
-    transition: background-color 0.3s ease; /* Smidig övergång */
-  }
-  
-  a:hover {
-    background-color: #3498db;
-    color: #fff;
-  }
+ 
+ /* H1 stil */
+.title {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
   
   /* Container för knappar/länkar */
   .links {
@@ -44,18 +14,15 @@
     margin-bottom: 30px;
   }
 
-  .backLink {
-    display: flex;
-  }
-
   
   /* För att centrera innehåll i knappar eller andra komponenter */
-  .centered-content {
+  .centeredContent {
     text-align: center;
+  
   }
 
   /* Stil för div som innehåller funktionerna */
-.functions-content {
+.functionsContent {
   background-color: #ffffff;
   padding: 20px;
   margin-top: 20px;
@@ -66,20 +33,20 @@
 }
 
 /* Stil för texten i funktionerna */
-.functions-content h3 {
+.functionsContent h3 {
   color: #2c3e50;
   font-size: 1.5rem;
   margin-bottom: 15px;
 }
 
-.functions-content p {
+.functionsContent p {
   color: #555; 
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
 
-.interface-content {
+.interfaceContent {
   background-color: #ffffff;
   padding: 20px;
   margin-top: 20px;
@@ -90,13 +57,13 @@
 }
 
 
-.interface-content h3 {
+.interfaceContent h3 {
   color: #2c3e50; 
   font-size: 2rem;
   margin-bottom: 20px; /* Lite utrymme under rubriken */
 }
 
-.interface-content p {
+.interfaceContent p {
   margin-top: 20px;
   font-size: 1.2rem;
   color: #2c3e50;
@@ -104,7 +71,7 @@
 }
 
 /* Container för både functions-content och interface-content */
-.main-content {
+.mainContent {
   display: flex;
   gap: 20px; /* Mellanrum mellan de två divarna */
   justify-content: space-between; /* För att ge dem jämnt utrymme mellan */

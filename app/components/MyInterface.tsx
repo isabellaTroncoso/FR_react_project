@@ -1,10 +1,11 @@
 import { useState } from "react";
 import type { User } from "~/types/User";
 import CustomButton from "./CustomButton";
+import styles from "../welcome/welcome.module.css"
 
 
 
-const MyInterface: React.FC = () => {
+const MyInterface = () => {
   const user: User = {
     username: "Bellz99",
     password: "*****",
@@ -18,7 +19,7 @@ const MyInterface: React.FC = () => {
   const showAge = () => setUserInfo(user.age.toString())
 
   return (
-    <div className="interface-content">
+    <div className={styles.interfaceContent}>
         <h3>My User Information</h3>
         <CustomButton buttonText="Username" userData={user} onClick={showUsername}/>
         <CustomButton buttonText="Password" userData={user} onClick={showPassword}/>

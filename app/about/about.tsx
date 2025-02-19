@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import CustomButton from "~/components/CustomButton";
 import type { User } from "~/types/User";
+import styles from "../welcome/welcome.module.css"
 
 export function About (){
 
@@ -18,17 +18,13 @@ export function About (){
       const showAge = () => setUserInfo(user.age.toString())
     
       return (
-        <div className="interface-content">
+        <div className={styles.interfaceContent}>
             <h3>My User Information</h3>
             <CustomButton buttonText="Username" userData={user} onClick={showUsername}/>
             <CustomButton buttonText="Password" userData={user} onClick={showPassword}/>
             <CustomButton buttonText="Age" userData={user} onClick={showAge}/>
     
             <p>{userInfo}</p>
-
-            <div className="backLink">
-            <Link to="/">Return</Link>
-            </div>
         
         </div>
       );

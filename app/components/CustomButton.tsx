@@ -1,4 +1,6 @@
 import type { User } from "../types/User"
+import customStyles from "./CustomButton.module.css"
+
 
 interface CustomButtonProps {
     buttonText: string,
@@ -6,9 +8,9 @@ interface CustomButtonProps {
     onClick: () => void;
 }
 
-const CustomButton: React.FC<CustomButtonProps> = ({buttonText, userData, onClick}) => {
+const CustomButton = ({buttonText, onClick}: CustomButtonProps) => {
 return (
-    <button onClick={onClick} className="custom-button">
+    <button onClick={onClick} className={customStyles.customButton}>
         {buttonText}
     </button>
   );
